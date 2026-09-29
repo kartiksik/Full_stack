@@ -1,0 +1,22 @@
+div {
+    background-color: chartreuse;
+    height: 400px;
+    width: 800px;
+    padding: 24px;
+}
+
+h1 {
+    background-color: beige;
+    padding: 20px;
+    border-style: dotted;
+    margin-bottom: 20px;
+}
+
+p {
+    background-color: aqua;
+    padding: 20px;
+}
+
+* {
+   margin: 0px;
+}

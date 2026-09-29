@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+     
+}
+
+
+.card {
+padding: 20px;
+background-color: aqua;
+
+}
+
+
+.big {
+padding: 40px;
+
+}
+
+.bg-green {
+background-color: greenyellow;
+
+}
+
+.big.bg-green{
+background-color: beige;
+
+}
+
+.text_underline{
+    text-decoration: underline;
+}
+p.text_underline{
+
+    color: white;
+}
+
+
+#pyarelal{
+
+color: black;
+}
