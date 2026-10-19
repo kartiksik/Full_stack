@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: aqua;
+
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+.hero{
+    height:500px ;
+    position: relative;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwrv6wL3j0nnG6xaohw79S9j1QQAeO67V5XBhlcaqUWA&s=10");
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 0;
+}
+.text{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 50px;
+    z-index: 1;
+    position: relative;
+}
+.product{
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    border-radius: 14px;
+    overflow: hidden;
+    margin: 20px;
+    margin-top: 60px;
+}
+.placeholder{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+.hello{
+    display: flex;
+    justify-content: center;
+position: relative;
+left: 100px;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#para{
+    position: relative;
+   top: 30px;
+   right: 150px;
+}
+#bara{
+    position: relative;
+    top: 60px;
+    right: 275px;
+}

@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 250px;
+    width: 250px;
+    border: 4px solid black;
+}
+.item1{
+    background-color: blue;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.item2{
+    background-color: green;
+}
+.item3{
+    background-color: bisque;
+}
